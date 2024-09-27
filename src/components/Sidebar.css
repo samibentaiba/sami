@@ -1,0 +1,172 @@
+/* sidebar Styles */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1e1e1e; /* Darker gray for sidebar background */
+  color: #ffffff;
+  width: 260px;
+  height: 100vh;
+  padding: 20px;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Logo Section */
+.logoContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.watchText {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* sideigation Links */
+.sideLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sideItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px 0;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.sideItem:hover {
+  background-color: #2a2a2a;
+  border-radius: 8px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Logout Button */
+.logoutButton {
+  background-color: #ff3d71;
+  border: none;
+  border-radius: 24px;
+  padding: 12px 24px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logoutButton:hover {
+  background-color: #e63363;
+}
+
+.galleryImage {
+  width: 100%;
+  border-radius: 12px;
+}
+
+
+.imageDetails {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.imageDetailHighlightText {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* sidebar.css */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e1e;
+  color: white;
+  width: 240px;
+  height: 100vh;
+  padding: 20px;
+}
+
+.logoContainer {
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 40px;
+}
+
+.sideLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sideItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.sideItem:hover {
+  background-color: #2a2a2a;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Sidebar CSS */
+.sidebar {
+  background-color: #151515;
+  padding: 20px;
+}
+
+.sidebar {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .sideLinks {
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .sideItem {
+    font-size: 12px;
+    padding: 5px 0;
+  }
+
+  .logoutButton {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
